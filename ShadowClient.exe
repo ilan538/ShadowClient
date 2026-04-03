@@ -1,0 +1,11 @@
+#include <windows.h>
+#include <cstdlib>
+
+int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nShowCmd) {
+    MessageBox(NULL, "ShadowClient start...", "ShadowClient", MB_OK);
+    
+    // Start Minecraft (pas het pad aan)
+    system("\"C:\\Program Files\\Minecraft Launcher\\MinecraftLauncher.exe\"");
+
+    return 0;
+}
