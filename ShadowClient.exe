@@ -2,9 +2,9 @@
 #include <cstdlib>
 
 int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nShowCmd) {
-    MessageBox(NULL, "ShadowClient start...", "ShadowClient", MB_OK);
-    
-    // Start Minecraft (pas het pad aan)
+    MessageBox(NULL, "ShadowClient Launcher start...", "ShadowClient", MB_OK | MB_ICONINFORMATION);
+
+    // Start de officiële Minecraft Launcher
     system("\"C:\\Program Files\\Minecraft Launcher\\MinecraftLauncher.exe\"");
 
     return 0;
